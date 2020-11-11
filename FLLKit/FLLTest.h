@@ -1,6 +1,6 @@
 //
-//  FLTest.h
-//  FLKit
+//  FLLTest.h
+//  FLLKit
 //
 //  Created by Fan Li Lin on 2020/11/11.
 //
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FLTest : NSObject
+@interface FLLTest : NSObject
 
 @end
 

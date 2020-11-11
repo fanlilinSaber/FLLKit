@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "9.0"
   spec.requires_arc = true
   spec.source = { git: "https://github.com/fanlilinSaber/FLLKit.git", tag: spec.version, submodules: true }
-  spec.source_files = "FLKit/**/*.{h,m}"
-  spec.public_header_files = 'FLKit/**/*.{h}'
+  spec.source_files = "FLLKit/**/*.{h,m}"
+  spec.public_header_files = 'FLLKit/**/*.{h}'
 end
