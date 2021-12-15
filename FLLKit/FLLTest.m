@@ -6,7 +6,15 @@
 //
 
 #import "FLLTest.h"
+#include "Lame/lame.h"
 
 @implementation FLLTest
+
+
+- (void)test01
+{
+    lame_t lame = lame_init();
+    
+}
 
 @end
