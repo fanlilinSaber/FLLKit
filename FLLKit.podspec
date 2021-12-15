@@ -10,5 +10,11 @@ Pod::Spec.new do |spec|
   spec.source = { git: "https://github.com/fanlilinSaber/FLLKit.git", tag: spec.version, submodules: true }
   spec.source_files = "FLLKit/*.{h,m}"
   spec.public_header_files = 'FLLKit/*.{h}'
+  
+  spec.subspec "Lame" do |ss|
+    ss.source_files = "FLLKit/Lame/**/*"
+  end
+
   spec.vendored_libraries = 'FLLKit/Lame/libmp3lame.a'
+  
 end
