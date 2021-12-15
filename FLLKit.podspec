@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.public_header_files = 'FLLKit/*.{h}'
   
   spec.subspec "Lame" do |ss|
-    ss.source_files = "FLLKit/Lame/**/*"
+    ss.source_files = "FLLKit/Lame/*.{h}"
   end
 
   spec.vendored_libraries = 'FLLKit/Lame/libmp3lame.a'
